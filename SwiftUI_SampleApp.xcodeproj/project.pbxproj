@@ -13,6 +13,8 @@
 		32AB000F29E488ED00862377 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB000E29E488ED00862377 /* DetailsView.swift */; };
 		32ABFFFD29E47BDC00862377 /* SwiftUI_SampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ABFFFC29E47BDC00862377 /* SwiftUI_SampleAppApp.swift */; };
 		32ABFFFF29E47BDC00862377 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ABFFFE29E47BDC00862377 /* ContentView.swift */; };
+		32F876B129EABA0900E05457 /* CatAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F876B029EABA0900E05457 /* CatAPIManager.swift */; };
+		32F876B329EABB3900E05457 /* CatFactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F876B229EABB3900E05457 /* CatFactModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		32ABFFF929E47BDC00862377 /* SwiftUI_SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32ABFFFC29E47BDC00862377 /* SwiftUI_SampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SampleAppApp.swift; sourceTree = "<group>"; };
 		32ABFFFE29E47BDC00862377 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32F876B029EABA0900E05457 /* CatAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAPIManager.swift; sourceTree = "<group>"; };
+		32F876B229EABB3900E05457 /* CatFactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +70,11 @@
 				32ABFFFC29E47BDC00862377 /* SwiftUI_SampleAppApp.swift */,
 				32ABFFFE29E47BDC00862377 /* ContentView.swift */,
 				32AB000E29E488ED00862377 /* DetailsView.swift */,
+				32F876B229EABB3900E05457 /* CatFactModel.swift */,
+				32F876B029EABA0900E05457 /* CatAPIManager.swift */,
 				32AB000029E47BDD00862377 /* Assets.xcassets */,
-				32AB000229E47BDD00862377 /* Preview Content */,
 				32AB000A29E47C5C00862377 /* Data.swift */,
+				32AB000229E47BDD00862377 /* Preview Content */,
 			);
 			path = SwiftUI_SampleApp;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 				32AB000F29E488ED00862377 /* DetailsView.swift in Sources */,
 				32AB000B29E47C5C00862377 /* Data.swift in Sources */,
 				32ABFFFD29E47BDC00862377 /* SwiftUI_SampleAppApp.swift in Sources */,
+				32F876B129EABA0900E05457 /* CatAPIManager.swift in Sources */,
+				32F876B329EABB3900E05457 /* CatFactModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
